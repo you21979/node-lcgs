@@ -6,7 +6,7 @@
   "dependencies": {
   },
   "readmeFilename": "README.md",
-  "description": "",
+  "description": "linear congruential generators",
   "main": "index.js",
   "devDependencies": {
     "istanbul":"",
