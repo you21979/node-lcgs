@@ -30,5 +30,11 @@ describe('lcgs', function() {
             assert(r >= min && r < max);
         }
     })
+    it('simple4', function() {
+        var r = new lcgs.Random(31, 0);
+        assert(r.generate() === 0.2113155864197531);
+        assert(r.generate() === 0.21591820987654323);
+        assert(r.generate() === 0.08325231481481482);
+    })
 })
 
