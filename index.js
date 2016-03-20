@@ -7,6 +7,7 @@ var systemRandom = require('./lib/system');
 exports.srand = systemRandom.srand;
 exports.rand = systemRandom.rand;
 exports.range = systemRandom.range;
+exports.frange = systemRandom.frange;
 exports.plcgs = plcgs;
 exports.lcgs = lcgs;
 exports.Random = Random;

@@ -14,10 +14,19 @@ describe('lcgs', function() {
     })
     it('simple2', function() {
         lcgs.srand(0);
-        var min = 0;
-        var max = 10;
+        var min = 1;
+        var max = 5;
         for(var i=0; i<1000; i++){
             var r = lcgs.range(min,max);
+            assert(r >= min && r <= max);
+        }
+    })
+    it('simple3', function() {
+        lcgs.srand(0);
+        var min = 1;
+        var max = 5;
+        for(var i=0; i<1000; i++){
+            var r = lcgs.frange(min,max);
             assert(r >= min && r < max);
         }
     })
