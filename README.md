@@ -1,4 +1,9 @@
 # node-lcgs
+
+[![NPM](https://nodei.co/npm/lcgs.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/lcgs)  
+[![Build Status](https://secure.travis-ci.org/you21979/node-lcgs.png?branch=master)](https://travis-ci.org/you21979/node-lcgs)
+[![Coverage Status](https://coveralls.io/repos/github/you21979/node-lcgs/badge.svg?branch=master)](https://coveralls.io/github/you21979/node-lcgs?branch=master)
+
 linear congruential generators
 
 ## install
