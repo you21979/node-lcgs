@@ -1,7 +1,7 @@
 {
   "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
   "name": "lcgs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "dependencies": {
   },
@@ -23,6 +23,8 @@
     "url": "git://github.com/you21979/node-lcgs.git"
   },
   "keywords": [
+    "linear congruential generators",
+    "portable LCGs",
     "random"
   ],
   "license": "MIT",
